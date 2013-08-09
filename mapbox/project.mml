@@ -1,0 +1,59 @@
+{
+  "bounds": [
+    5.8008,
+    45.6716,
+    9.4922,
+    46.7436
+  ],
+  "center": [
+    6.9544,
+    46.0093,
+    10
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 10,
+  "maxzoom": 14,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        6.955956,
+        45.996897,
+        6.986597,
+        46.020765
+      ],
+      "id": "day1",
+      "class": "d1",
+      "Datasource": {
+        "file": "C:\\projects\\haute-route\\data\\day1.json",
+        "id": "day1",
+        "project": "haute-route",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "day1"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Haute Route",
+  "description": "Visualisation of my Haute Route hike in July 2013",
+  "attribution": ""
+}
